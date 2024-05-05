@@ -1,20 +1,28 @@
 
 
+1. Raw Image
+Tuberculosis Chest X-rays (Shenzhen)
+https://www.kaggle.com/datasets/raddar/tuberculosis-chest-xrays-shenzhen
 
-原始遮罩由 YOCTOMAN 製作,
+More at 
+https://lhncbc.nlm.nih.gov/LHC-downloads/downloads.html#tuberculosis-image-data-sets
+https://data.lhncbc.nlm.nih.gov/public/Tuberculosis-Chest-X-ray-Datasets/Shenzhen-Hospital-CXR-Set/index.html
+
+2. Mask Image
+The original masks were created by YOCTOMAN
 Lung Masks for Shenzhen Hospital Chest X-ray Set
 https://www.kaggle.com/datasets/yoctoman/shcxr-lung-mask
 
-該遮罩應用的論文為 
+The masks were used in the following paper:
 
 Sergii Stirenko, Yuriy Kochura, Oleg Alienin, Oleksandr Rokovyi, Peng Gang, Wei Zeng, Yuri Gordienko
 Chest X-Ray Analysis of Tuberculosis by Deep Learning with Segmentation and Augmentation
 https://ieeexplore.ieee.org/abstract/document/8477564
 https://arxiv.org/abs/1803.01199
 
-
-依據原作者, 這些遮罩檔案屬於 License CC BY-NC-SA 4.0
+According to the original author, these mask files are licensed under CC BY-NC-SA 4.0:
 https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-本文只存放分割該遮罩的 python 程式碼, 並沒有存放任何遮罩.
+3. 
+This document only contains the Python code for segmenting the masks and does not store any mask files.
 
