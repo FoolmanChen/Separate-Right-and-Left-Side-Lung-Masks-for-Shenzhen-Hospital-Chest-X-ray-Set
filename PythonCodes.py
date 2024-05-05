@@ -30,7 +30,7 @@ def return_zeros_width_seg(image_np):
 
     return seg_average
 
-input_dir = 'E:\\Horizontal_flip\\CHNCXR_mask\\mask'
+input_dir = 'E:\\CHNCXR_mask\\mask'
 output_dir_right = f'{input_dir}_right'
 output_dir_left = f'{input_dir}_left'
 
